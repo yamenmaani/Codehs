@@ -1,0 +1,6 @@
+MIN = int(input("Enter a number: "))
+MAX = int(input("Enter another number: "))
+sum = 0
+for i in range(MIN, (MAX+1)):
+     sum =sum + i
+print("The sum is: " + str(sum))
